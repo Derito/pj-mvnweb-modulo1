@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<title>Curso WEB</title>
+		
+		<!-- uso de CSS abaixo tag link busca o css style.css de config generico -->
+		
+		<link  rel= "stylesheet" type="text/css" href="css/style.css"/>
+		
+		<!-- uso de JavaScript Da o alerta abaixo uso de script -->
+		<script type="text/javascript" src="js/autenticacao.js"></script>
+	</head>
+		<body>
+				<form  method="post" onsubmit="return aut.validarCampos()">
+					<!-- <label>Usuario:</label> -->
+					<input id="txtUsuario" name="txtUsuario" type="text" value="" placeholder="Usuario" >
+					<!-- o placeholder coloca o item descrito no campo label acima dispensa rotulo -->
+					
+					<!--  <label>Senha:</label> -->
+					<input id="txtSenha" name="txtSenha" type="password" value="" placeholder="Senha">
+					
+					<input type="submit" value="Autenticar">
+				
+				</form>
+	
+		</body>
+</html>
